@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Totally Trivial Trivia</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center"><h1 class="maintitle">Totally Trivial Trivia!</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4 ">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Start</button>
+        </div>
+        <div class="col-lg-4 col-lg-offset-4 text-center">
+            <p id="time">Time Remaining:<span id="timer"></span></p>
+        </div>
+    </div>
+
+        <div class="form-group text-center">
+            <p>1. What is converted into alcohol during brewing?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Sugar
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Lemon
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Milk
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Water
+                </label>
+            </form>
+            
+            <p>2. What is the capital of Canada?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Vancouver
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Montreal
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Ottawa
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Toronto
+                </label>
+            </form>
+
+            <p>3. In which country is Transylvania?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Romania
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">France
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Germany
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">England
+                </label>
+            </form>
+            
+            <p>4. According to the Bible, what was the name of the town which was the birthplace of Jesus Christ?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Bethlehem
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Gethsemane
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Jerusalem
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Nazareth
+                </label>
+            </form>
+            
+            <p>5. Name the capital of Australia.</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Canberra
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Sydney
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Melbourne
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Perth
+                </label>
+            </form>
+            
+            <p>6. Dracula suffers from staurophobia, the fear of ______?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Garlic
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Mirrors
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Daylight
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Crucifixes
+                </label>
+            </form>
+            
+            <p>7. What liquid measure is equal to 1.76 imperial pints?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Quart
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Litre
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Gallon
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Bushel
+                </label>
+            </form>
+        </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="done">DONE</button>
+        </div>
+    </div>
+
+</div><!-- content container -->
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

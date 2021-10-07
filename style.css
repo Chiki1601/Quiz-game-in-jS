@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+body { 
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+	background-position: center top;
+}
+
+form {
+    margin-bottom: 3em;
+}
+
+h1 {
+    margin-top: 40px;
+    font-family: Creepster, cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-top: 20px;
+    background-color: #f2f0d6;
+    margin-bottom: 20px;
+}
+
+#start {
+    margin: 320px 0 480px 0;
+}
+
+#done{
+    margin-bottom: 40px;
+}
+
+#summary {
+    margin-top: 60px;
+    margin-bottom: 480px;
+}
